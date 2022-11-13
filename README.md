@@ -34,7 +34,19 @@ If you want to visit the site, click on the next link:
 
 ## Screenshots
 Main Page:
+![image](https://user-images.githubusercontent.com/107447818/201507916-4fc655d9-64fe-496b-adf2-f3cf54138824.png)
 
+Starting quiz:
+![image](https://user-images.githubusercontent.com/107447818/201507931-f3396f20-4db6-4921-85e2-c962d84f3ef2.png)
+
+After finished the quiz, you can storage your score:
+![image](https://user-images.githubusercontent.com/107447818/201507967-f628dd3f-b609-48d3-a521-dff1bc359433.png)
+
+Score saved:
+![image](https://user-images.githubusercontent.com/107447818/201507982-05b5b1ac-224f-4210-9cea-5319473de853.png)
+
+Click on the button to clear highscores to reset the board:
+![image](https://user-images.githubusercontent.com/107447818/201508006-5d51b5b0-81f7-42b7-aa70-f3263bbc34d1.png)
 
 ## License
 
