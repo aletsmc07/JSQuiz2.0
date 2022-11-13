@@ -37,7 +37,6 @@ p {
 #currentTime {
     float: right;
     padding: 5px;
-    margin-bottom: 25px;
     border-radius: 5px;
     color: white;
 }
@@ -89,7 +88,7 @@ textarea {
 }
 
 #Submit {
-    background-color: purple;
+    background-color: black;
     margin-left: 33%;
     padding: 15px 32px;
     font-size: 20px;

@@ -59,7 +59,7 @@ timer.addEventListener("click", function () {
   if (holdInterval === 0) {
     holdInterval = setInterval(function () {
       secondsLeft--;
-      currentTime.textContent = "Time: " + secondsLeft;
+      currentTime.textContent = "TIME: " + secondsLeft + " seconds";
 
       if (secondsLeft <= 0) {
         clearInterval(holdInterval);
