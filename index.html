@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Assets/CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <!-- Link to highscores -->
+    <a class="buttonHS" href="HighScores.html">SCORES</a>
+    <!-- This is a wrapper -->
+    <div id="wrapper">
+      <!-- Div for timer -->
+      <div id="currentTime"></div>
+      <!-- Div for quiz content -->
+      <div id="questionsDiv">
+        <h1>CODING QUIZ</h1>
+        <p>
+          Answer the following quiz within the time
+          limit. Keep in mind that incorrect answers will penalize your
+          score/time by 10 seconds!
+        </p>
+        <ul id="choicesUl"></ul>
+        <!-- Buttons -->
+        <button id="startTime">START!</button>
+      </div>
+    </div>
+
+    <script src="./Assets/JS/questions.js"></script>
+  </body>
 </html>
